@@ -176,7 +176,7 @@ paths:
   /crash/get/{vin}:
     get:
       operationId: fetchCrashByVehicle
-      description: Get the last datas of crash
+      description: Get the last data of crash
       tags: []
       parameters:
       - default: ""
@@ -383,7 +383,7 @@ paths:
   /crash/search/{vin}:
     get:
       operationId: searchCrashByVehicle
-      description: Get crash's datas by date
+      description: Get crash's data by date
       tags: []
       parameters:
       - default: ""
@@ -2325,7 +2325,7 @@ paths:
   /environment/list:
     post:
       operationId: fetchAllEnvironmentData
-      description: Get the last datas of environment with list
+      description: Get the last data of environment with list
       tags: []
       parameters:
       - schema:
@@ -2509,7 +2509,7 @@ paths:
   /environment/get/{vin}:
     get:
       operationId: fetchEnvironmentDataByVehicle
-      description: Get the last datas of environment
+      description: Get the last data of environment
       tags: []
       parameters:
       - default: ""
@@ -3084,7 +3084,7 @@ paths:
   /maintenance/list/alert:
     post:
       operationId: fetchAllMaintenanceAlert
-      description: Get alert's datas  with list
+      description: Get alert's data with list
       tags: []
       parameters:
       - schema:
@@ -3575,7 +3575,7 @@ paths:
   /referential/maintenance:
     get:
       operationId: fetchMaintenanceReferential
-      description: Get datas's maintenance from referential
+      description: Get data's maintenance from referential
       tags: []
       parameters:
       - default: ""
@@ -3613,7 +3613,7 @@ paths:
   /referential/alert:
     get:
       operationId: fetchAlertReferential
-      description: Get datas's alert from referential
+      description: Get data's alert from referential
       tags: []
       parameters:
       - default: ""
@@ -3651,7 +3651,7 @@ paths:
   /referential/ecodriving:
     get:
       operationId: fetchAllEcodrivingReferential
-      description: Get datas's ecodriving from referential
+      description: Get data's ecodriving from referential
       tags: []
       parameters:
       - default: ""
@@ -4138,7 +4138,7 @@ paths:
   /running/list:
     post:
       operationId: fetchAllRunningData
-      description: Get running's datas with list
+      description: Get running's data with list
       tags: []
       parameters:
       - schema:
@@ -4366,7 +4366,7 @@ paths:
   /running/data/{vin}:
     get:
       operationId: fetchAllRunningDataByVehicle
-      description: Get running's datas
+      description: Get running's data
       tags: []
       parameters:
       - default: ""
@@ -4578,7 +4578,7 @@ paths:
   /running/data/lightstatus/{vin}:
     get:
       operationId: fetchLightStatusByVehicle
-      description: Get light's datas
+      description: Get light's data
       tags: []
       parameters:
       - default: ""
