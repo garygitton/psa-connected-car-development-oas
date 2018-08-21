@@ -36,6 +36,7 @@ securityDefinitions:
 paths:
   /crash/list:
     post:
+      operationId: fetchAllCrash
       description: Get crash's data with list of vin and contract
       tags: []
       parameters:
@@ -174,6 +175,7 @@ paths:
       summary: ""
   /crash/get/{vin}:
     get:
+      operationId: fetchCrashByVehicle
       description: Get the last datas of crash
       tags: []
       parameters:
@@ -380,6 +382,7 @@ paths:
       summary: ""
   /crash/search/{vin}:
     get:
+      operationId: searchCrashByVehicle
       description: Get crash's datas by date
       tags: []
       parameters:
@@ -546,6 +549,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/list:
     post:
+      operationId: fetchAllEcoevaluation
       description: Vehicle's ecoevaluation of all trips with list of vin and contract
       tags: []
       parameters:
@@ -743,6 +747,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/trip/day/list:
     post:
+      operationId: fetchAllEcoevaluationPerDay
       description: Get ecoevaluation per day with list
       tags: []
       parameters:
@@ -956,6 +961,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/trip/day/{vin}:
     get:
+      operationId: fetchEcoevaluationPerDayByVehicle
       description: Get ecoevaluation per day
       tags: []
       parameters:
@@ -1155,6 +1161,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/pertrip/{vin}/{tripid}:
     get:
+      operationId: fetchEcoevaluationByVehicleAndTrip
       description: Get ecoevaluation per trip
       tags: []
       parameters:
@@ -1346,6 +1353,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/trip/month/list:
     post:
+      operationId: fetchAllEcoevaluationPerMonth
       description: Get ecoevaluation per month with list
       tags: []
       parameters:
@@ -1559,6 +1567,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/trip/month/{vin}:
     get:
+      operationId: fetchEcoevaluationPerMonthByVehicle
       description: Get ecoevaluation per month
       tags: []
       parameters:
@@ -1758,6 +1767,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/get/{vin}:
     get:
+      operationId: fetchEcoevaluationByVehicle
       description: Ecoevaluation of all trips for a vehicle
       tags: []
       parameters:
@@ -1939,6 +1949,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/lasttrip/{vin}:
     get:
+      operationId: fetchLastTripEcoevaluationByVehicle
       description: Get ecoevaluation of the last trip
       tags: []
       parameters:
@@ -2124,6 +2135,7 @@ paths:
       summary: ""
   /ecodriving/evaluation/daytrips/{vin}:
     get:
+      operationId: fetchEcoevaluationPerDaytripsByVehicle
       description: Get ecoevaluation of each trip of the day indicated day
       tags: []
       parameters:
@@ -2312,6 +2324,7 @@ paths:
       summary: ""
   /environment/list:
     post:
+      operationId: fetchAllEnvironmentData
       description: Get the last datas of environment with list
       tags: []
       parameters:
@@ -2495,6 +2508,7 @@ paths:
       summary: ""
   /environment/get/{vin}:
     get:
+      operationId: fetchEnvironmentDataByVehicle
       description: Get the last datas of environment
       tags: []
       parameters:
@@ -2662,6 +2676,7 @@ paths:
       summary: ""
   /maintenance/{vin}:
     get:
+      operationId: fetchMaintenanceDataByVehicle
       description: Get maintenance's data
       tags: []
       parameters:
@@ -2856,6 +2871,7 @@ paths:
       summary: ""
   /maintenance/list:
     post:
+      operationId: fetchAllMaintenanceData
       description: Get maintenance's data with list
       tags: []
       parameters:
@@ -3067,6 +3083,7 @@ paths:
       summary: ""
   /maintenance/list/alert:
     post:
+      operationId: fetchAllMaintenanceAlert
       description: Get alert's datas  with list
       tags: []
       parameters:
@@ -3151,6 +3168,7 @@ paths:
       summary: ""
   /maintenance/alert/{vin}:
     get:
+      operationId: fetchMaintenanceAlertByVehicle
       description: Get data's alert
       tags: []
       parameters:
@@ -3221,6 +3239,7 @@ paths:
       summary: ""
   /place/lastposition/{vin}:
     get:
+      operationId: fetchLastPositionByVehicle
       description: Get the last position of the vin
       tags: []
       parameters:
@@ -3383,6 +3402,7 @@ paths:
       summary: ""
   /place/positions/trip/{vin}:
     get:
+      operationId: fetchPositionPerTripByVehicle
       description: Get differents positions of a trip
       tags: []
       parameters:
@@ -3554,6 +3574,7 @@ paths:
       summary: ""
   /referential/maintenance:
     get:
+      operationId: fetchMaintenanceReferential
       description: Get datas's maintenance from referential
       tags: []
       parameters:
@@ -3591,6 +3612,7 @@ paths:
       summary: ""
   /referential/alert:
     get:
+      operationId: fetchAlertReferential
       description: Get datas's alert from referential
       tags: []
       parameters:
@@ -3628,6 +3650,7 @@ paths:
       summary: ""
   /referential/ecodriving:
     get:
+      operationId: fetchAllEcodrivingReferential
       description: Get datas's ecodriving from referential
       tags: []
       parameters:
@@ -3671,6 +3694,7 @@ paths:
       summary: ""
   /running/lightstatus/list:
     post:
+      operationId: fetchAllLightStatus
       description: Get light with list
       tags: []
       parameters:
@@ -4113,6 +4137,7 @@ paths:
       summary: ""
   /running/list:
     post:
+      operationId: fetchAllRunningData
       description: Get running's datas with list
       tags: []
       parameters:
@@ -4340,6 +4365,7 @@ paths:
       summary: ""
   /running/data/{vin}:
     get:
+      operationId: fetchAllRunningDataByVehicle
       description: Get running's datas
       tags: []
       parameters:
@@ -4551,6 +4577,7 @@ paths:
       summary: ""
   /running/data/lightstatus/{vin}:
     get:
+      operationId: fetchLightStatusByVehicle
       description: Get light's datas
       tags: []
       parameters:
@@ -4977,6 +5004,7 @@ paths:
       summary: ""
   /safety/drivingassistance/{vin}:
     get:
+      operationId: fetchLastDrivingAssistanceByVehicle
       description: Get the last driving assistance
       tags: []
       parameters:
@@ -6002,6 +6030,7 @@ paths:
       summary: ""
   /safety/search/safetyassistance/day/{vin}:
     get:
+      operationId: searchSafetyAssistancePerDayByVehicle
       description: Get safety assistance per day
       tags: []
       parameters:
@@ -6539,6 +6568,7 @@ paths:
       summary: ""
   /safety/safetyassistance/{vin}:
     get:
+      operationId: fetchLastSafetyAssistanceByVehicle
       description: Get the last safety assistance
       tags: []
       parameters:
@@ -7070,6 +7100,7 @@ paths:
       summary: ""
   /safety/search/drivingassistance/day/{vin}:
     get:
+      operationId: searchDrivingAssistancePerDayByVehicle
       description: Get driving assistance
       tags: []
       parameters:
@@ -8101,6 +8132,7 @@ paths:
       summary: ""
   /trip/get/referencetrip/{vin}:
     get:
+      operationId: fetchReferenceTripByVehicle
       description: Get reference trip
       tags: []
       parameters:
@@ -8196,6 +8228,7 @@ paths:
       summary: ""
   /trip/update/referencetrip/{vin}:
     put:
+      operationId: updateReferenceTripByVehicle
       description: Updating reference trip
       tags: []
       parameters:
@@ -8226,6 +8259,7 @@ paths:
       summary: ""
   /trip/last/{vin}:
     get:
+      operationId: fetchLastTripsByVehicle
       description: Get n last trip(s)
       tags: []
       parameters:
@@ -8329,6 +8363,7 @@ paths:
       summary: ""
   /trip/update/reference/fuelprice/{vin}:
     put:
+      operationId: updateFuelPriceReferenceByVehicle
       description: Updating reference fuel price
       tags: []
       parameters:
@@ -8359,6 +8394,7 @@ paths:
       summary: ""
   /trip/list:
     post:
+      operationId: fetchAllTrip
       description: Get trips with list between two dates
       tags: []
       parameters:
@@ -8482,6 +8518,7 @@ paths:
       summary: ""
   /trip/period/{vin}:
     get:
+      operationId: fetchTripPerPeridByVehicle
       description: ""
       tags: []
       parameters:
@@ -8590,6 +8627,7 @@ paths:
       summary: ""
   /trip/id/{vin}/{tripid}:
     get:
+      operationId: fetchTripByVehicleAndTrip
       description: Get trip with id
       tags: []
       parameters:
@@ -8686,6 +8724,7 @@ paths:
       summary: ""
   /trip/update/fuelprice/{vin}/{tripid}:
     put:
+      operationId: updateFuelPriceForTripByVehicleAndTrip
       description: Updating fuel price of a trip
       tags: []
       parameters:
@@ -8722,6 +8761,7 @@ paths:
       summary: ""
   /trip/get/reference/fuelprice/{vin}:
     get:
+      operationId: fetchFuelPriceReferenceByVehicle
       description: Get reference fuel price
       tags: []
       parameters:
@@ -8755,6 +8795,7 @@ paths:
       summary: ""
   /vehicle/picture/{vin}/{contract}:
     post:
+      operationId: fetchPictureByVehicleAndContract
       description: Get vehicles's pictures
       tags: []
       parameters:
@@ -8797,6 +8838,7 @@ paths:
       - Client ID: []
       summary: ""
     get:
+      operationId: fetchPictureByVehicleAndContract2
       responses:
         200:
           description: 200 OK
@@ -8815,6 +8857,7 @@ paths:
         description: Contract number
   /vehicle/information/{vin}:
     get:
+      operationId: fetchVehicleInformationByVehicle
       description: Get vehicles's informations
       tags: []
       parameters:
