@@ -168,7 +168,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -320,7 +320,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
           examples:
             application/json:
               totMileage:
@@ -540,7 +540,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -737,7 +737,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -950,7 +950,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -1149,7 +1149,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -1340,7 +1340,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -1553,7 +1553,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -1752,7 +1752,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -1933,7 +1933,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -2118,7 +2118,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -2306,7 +2306,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -2489,7 +2489,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -2656,7 +2656,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -2850,7 +2850,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3061,7 +3061,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3145,7 +3145,7 @@ paths:
                       type: string
                     category:
                       type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3215,7 +3215,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3377,7 +3377,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3548,7 +3548,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3585,7 +3585,7 @@ paths:
                   type: string
                 rgrpLabel:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3622,7 +3622,7 @@ paths:
                   type: string
                 rgrpLabel:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -3665,7 +3665,7 @@ paths:
                   type: string
                 edLevel:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -4107,7 +4107,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -4334,7 +4334,7 @@ paths:
                   type: string
                 contract:
                   type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -4545,7 +4545,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -4971,7 +4971,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -5996,7 +5996,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -6533,7 +6533,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -7064,7 +7064,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8095,7 +8095,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8190,7 +8190,7 @@ paths:
                       type: string
                     contract:
                       type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8220,7 +8220,7 @@ paths:
       responses:
         200:
           description: ""
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8323,7 +8323,7 @@ paths:
                       type: string
                     contract:
                       type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8353,7 +8353,7 @@ paths:
       responses:
         200:
           description: ""
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8476,7 +8476,7 @@ paths:
                       type: string
                     contract:
                       type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8680,7 +8680,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8716,7 +8716,7 @@ paths:
       responses:
         200:
           description: ""
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8749,7 +8749,7 @@ paths:
                 type: string
               contract:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8792,7 +8792,7 @@ paths:
       responses:
         200:
           description: ""
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
@@ -8871,7 +8871,7 @@ paths:
                 type: string
               vin:
                 type: string
-          headers: []
+          headers: {}
       security:
       - Client ID: []
       summary: ""
